@@ -8,7 +8,7 @@ function App() {
       <section className="bio-card">
         <img
           src="https://cdn-icons-png.flaticon.com/512/3062/3062634.png"
-          alt="Daniel Hanák, Ing. - QA & Automation Enthusiast"
+          alt="Daniel Hanák, Bc. - QA & Automation Enthusiast"
           className="bio-avatar"
           onError={e => { e.target.onerror = null; e.target.src = process.env.PUBLIC_URL + '/logo192.png'; }}
         />
@@ -54,7 +54,7 @@ function App() {
       </section>
 
       <footer className="bio-footer">
-        <span>© 2025 Ing. Daniel Hanák</span>
+        <span>© 2025 Bc. Daniel Hanák</span>
       </footer>
     </main>
   );
